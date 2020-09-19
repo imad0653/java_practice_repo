@@ -1,0 +1,74 @@
+First CODE
+
+int num1 = 5;
+        int num2 = 10;
+        int num3 = 25;
+        int sum = num1 + num2 + num3;
+        System.out.println(sum);
+
+Date Time reference type difference
+package com.company;
+
+import java.util.Date;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Date now = new Date();
+        System.out.println(now);
+
+    }
+}
+
+String
+
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        String message = "Imad";
+        System.out.println(message);
+
+    }
+}
+
+		METHODS
+know length
+
+  	String message = "Imad";
+        System.out.println(  message.length());
+
+Start with
+
+    	String message = "Imad";
+        System.out.println(  message.startsWith("I");
+
+Emd with
+
+        String message = "Imad";
+        System.out.println(  message.endsWith("s"));
+
+Knowing the contain character
+
+        String message = "Imad";
+        System.out.println(  message.indexOf("m"));
+
+ESCAPE SEQUENCE
+
+package com.company;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello \"world\"");
+        System.out.println("c:\twindow....");
+        System.out.println("c\nwindow....");
+    }
+}
+
