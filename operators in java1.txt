@@ -1,0 +1,78 @@
+public class Main {
+
+    public static void main(String[] args) {
+    // Arthmetic operators
+
+        int a = 2;
+        int b = 10 + a;
+        System.out.println(b);
+
+        int a1 = 2;
+        int b1 = 10 - a;
+        System.out.println(b1);
+
+        int a2 = 2;
+        int b2 = 10 * a;
+        System.out.println(b2);
+
+        int a3 = 2;
+        int b3 = 10 / a;
+        System.out.println(b3);
+
+    }
+}
+
+============================================
+public class Main {
+
+    public static void main(String[] args) {
+    // Assigment operator
+
+
+        int a = 5;
+        a += 5;
+        System.out.println(a);
+
+        int a1 = 5;
+        a1 -= 5;
+        System.out.println(a1);
+
+        int a2 = 5;
+        a2 *= 5;
+        System.out.println(a2);
+
+        int a3 = 5;
+        a3 /= 5;
+        System.out.println(a3);
+
+    }
+}
+=============================================
+ublic class Main {
+
+    public static void main(String[] args) {
+    // Unary Operator
+        int x = 20;
+        int y = 10;
+                    //pre incriment
+        //System.out.println(++x);
+       // System.out.println(x);
+                    //post incriment
+        //System.out.println(x++);
+        //System.out.println(x);
+
+                    //pre decriment
+        //System.out.println(--x);
+        // System.out.println(x);
+
+                    //post decriment
+        //System.out.println(x--);
+        // System.out.println(x);
+
+
+        boolean d = !(x > y);
+        System.out.println(d);
+
+
+
+
