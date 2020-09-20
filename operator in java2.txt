@@ -1,0 +1,70 @@
+public class Main {
+
+    public static void main(String[] args) {
+    // CONDITIONAL OPERATORS
+        int x = 20;
+        int y = 10;
+
+       // boolean z = (x == y); return false
+       // System.out.println(z);
+
+      // boolean z = (x != y); return true
+       // System.out.println(z);
+
+       // boolean z = (x > y);  return true
+        // System.out.println(z);
+
+       // boolean z = (x < y);  return false
+        // System.out.println(z);
+
+         //boolean z = (x >= y); return true
+        // System.out.println(z);
+
+        // boolean z = (x <= y); return false
+         // System.out.println(z);
+
+==================================================
+
+public class Main {
+
+    public static void main(String[] args) {
+    // LOGICAL OPERATORS
+        int x = 27;
+        int y = 20;
+
+     // boolean z = (x > y) && (y < x);
+        // System.out.println(z);
+
+       // boolean z = (x < y) || (x < y);
+        // System.out.println(z);
+
+====================================================
+
+public class Main {
+
+    public static void main(String[] args) {
+    // Ternary OPERATORS
+        int x = 27;
+        int y = 20;
+
+        //String z = (x < y) ? "true" : "false";
+        //System.out.println(z);
+
+=========================================================
+
+public class Main {
+
+    public static void main(String[] args) {
+    // Bitwise OPERATORS
+        int x = 26;
+        int y = 20;
+
+        //int z = x & y;
+        //System.out.println(z);
+
+        //int z = x | y;
+        //System.out.println(z);
+
+        //int z = x ^ y;
+        //System.out.println(z);
+
