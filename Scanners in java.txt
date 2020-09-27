@@ -1,0 +1,51 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //We will take the input from the user
+
+        Scanner sc = new Scanner(System.in);// System.in use for take input from keyboard
+        System.out.println("Enter your number");//Yahan hum program run hotay waqt apna number enter karegy
+        int a = sc.nextInt(); //nextInt ka matlab hum ya scanners numbers sa means int sa use karahy hain
+        System.out.println("Enter your number");
+        int b = sc.nextInt();
+        int result = a + b; // here we will add these two values
+        System.out.println(result);
+
+    }
+}
+
+	 //Is waly program mn hum . value yani float value add kar sakty hain
+
+public class Main {
+
+    public static void main(String[] args) {
+       
+
+        Scanner sc = new Scanner(System.in);// System.in use for take input from keyboard
+        System.out.println("Enter your number");//Yahan hum program run hotay waqt apna number enter karegy
+        float a = sc.nextFloat(); //nextInt ka matlab hum ya scanners numbers sa means int sa use karahy hain
+        System.out.println("Enter your number");
+        float b = sc.nextFloat();
+        float result = a + b; // here we will add these two values
+        System.out.println(result);
+
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter username");
+        String username = obj.nextLine();
+
+        System.out.println("Your username is: " +username);
+
+    }
+}
