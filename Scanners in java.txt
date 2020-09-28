@@ -49,3 +49,25 @@ public class Main {
 
     }
 }
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter your roll number");
+        int roll = obj.nextInt();
+
+        obj.nextLine();
+
+        System.out.println("Enter your name");
+        String name = obj.nextLine();
+
+        System.out.println("Enter your class");
+        String Class = obj.nextLine();
+
+        System.out.println(roll + " " + name + " " + Class );
+    }
+}
+
