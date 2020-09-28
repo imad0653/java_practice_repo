@@ -23,3 +23,18 @@ public class Main {
         }
     }
 }
+==========================================
+DO WHILE LOOP
+==========================================
+public class Main {
+
+    public static void main(String[] args) {
+
+        int i = 1;
+        do {
+            System.out.println("This is do while loop: " + i);
+            i++;
+        }
+        while (i <= 10);
+    }
+}
