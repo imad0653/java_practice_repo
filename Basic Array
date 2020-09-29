@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        int Myage[] = new int[5];
+        Myage[0] = 23;
+        Myage[1] = 24;
+        Myage[2] = 25;
+        Myage[3] = 26;
+        Myage[4] = 27;
+        System.out.println(Myage[0]);
+
+    }
+}
+
