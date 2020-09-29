@@ -14,3 +14,14 @@ public class Main {
     }
 }
 
+public class Main {
+
+    public static void main(String[] args) {
+
+
+      String[] weapons = {"rifle", "9MM", "pistol", "Gernad"};
+        System.out.println(weapons[0]);
+
+    }
+}
+
