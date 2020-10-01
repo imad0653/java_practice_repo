@@ -1,0 +1,29 @@
+DEFAULT COBSTRUCTOR
+
+package universities;
+
+
+public class Universities {
+    
+    String name;
+    String closing;
+    int fee;
+    
+    Universities(){
+        
+        name = "LUMS";
+        closing = "50%";
+        fee = 20000;
+        
+    }
+   
+    public static void main(String[] args) {
+        
+        Universities obj = new Universities();
+        
+        System.out.println("University name is: "+obj.name);
+        System.out.println("University closing is: "+obj.closing);
+        System.out.println("University fee is: "+obj.fee);
+    }
+    
+}
