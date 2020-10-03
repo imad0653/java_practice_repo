@@ -1,29 +1,45 @@
-DEFAULT COBSTRUCTOR
 
-package universities;
+package cities;
 
 
-public class Universities {
-    
-    String name;
-    String closing;
-    int fee;
-    
-    Universities(){
-        
-        name = "LUMS";
-        closing = "50%";
-        fee = 20000;
-        
-    }
-   
+public class CITIES {
+//default constructor
+  String City_name;
+  String City_province;
+  float Gdp;
+  
+  CITIES(){
+  
+      City_name = "KARACHI";
+      City_province = "SINDH";
+      Gdp = 2-8f;
+      
+  }
+  
+  //perametrize constructor
+  
+   CITIES(String cn, String cp, float gp){
+  
+      City_name = cn;
+      City_province = cp;
+      Gdp = gp;
+      
+  }
     public static void main(String[] args) {
         
-        Universities obj = new Universities();
+        CITIES cns = new CITIES();
         
-        System.out.println("University name is: "+obj.name);
-        System.out.println("University closing is: "+obj.closing);
-        System.out.println("University fee is: "+obj.fee);
+        System.out.println("city name is " + cns.City_name);
+        
+        System.out.println("city province is " + cns.City_province);
+        
+        System.out.println("city Gdp is " + cns);
+        
+        CITIES cms = new CITIES("Islamabad","Fedral",2.3f);
+        
+        System.out.println("your city name is "+ cms.City_name);
+        System.out.println("your city province name is "+cms.City_province);
+        System.out.println("your city gdp is "+ cms.Gdp);
     }
     
 }
