@@ -1,0 +1,54 @@
+father class:
+
+package hierarical.inheritence;
+
+
+public class FATHER {
+    int x = 5;
+    int y = 4;
+    
+    
+    void fathermsg()
+    {
+        System.out.println("This msg from father");
+    }
+}
+
+SON CLASS:
+
+
+package hierarical.inheritence;
+
+
+public class SON extends FATHER {
+    
+}
+
+DAUGHTER CLASS:
+package hierarical.inheritence;
+
+
+public class DAUGHTER extends FATHER{
+    
+}
+
+
+MAIN CLASS
+
+
+package hierarical.inheritence;
+
+
+public class HieraricalInheritence {
+
+    public static void main(String[] args) {
+        
+        SON atif = new SON();
+        System.out.println(atif.x);
+        atif.fathermsg();
+        DAUGHTER sara = new DAUGHTER();
+        System.out.println(sara.y);
+        sara.fathermsg();
+    }
+    
+}
