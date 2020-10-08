@@ -1,0 +1,34 @@
+
+package studentsinfo;
+
+public class StudentsInfo {
+
+ private int stdId;
+ private String stdName;
+ private String stdClass;
+ private int stdAge;
+ 
+ public void setData(int stdId,  String stdName, String stdClass, int stdAge)
+ {
+ this.stdId = stdId;
+ this.stdName = stdName;
+ this.stdClass = stdClass;
+ this.stdAge = stdAge;
+ }
+ public void getData()
+ {
+     System.out.println("This is student id "+ stdId);
+     System.out.println("This is student name "+stdName);
+     System.out.println("This is student class "+stdClass);
+     System.out.println("This is student age "+stdAge);
+ }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        StudentsInfo imad = new StudentsInfo();
+        StudentsInfo taha = new StudentsInfo();
+        imad.setData(5, "imad", "BS", 23);
+        imad.getData();
+        
+        taha.setData(6, "taha", "primary", 12);
+        taha.getData();
+    }
