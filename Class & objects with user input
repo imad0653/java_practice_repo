@@ -1,0 +1,48 @@
+
+package javaapplication12;
+
+import java.util.Scanner;
+
+
+public class JavaApplication12 {
+
+    private int EmpId;
+    private String EmpName;
+    private String EmpAddress;
+    private int EmpNumber;
+    
+    public void setData(int EmpId, String EmpName, String EmpAddress, int EmpNumber)
+    {
+    this.EmpId = EmpId;
+    this.EmpName = EmpName;
+    this.EmpAddress = EmpAddress;
+    this.EmpNumber = EmpNumber;
+    }
+    public void GetData()
+    {
+        System.out.println("This is employee id "+EmpId);
+        System.out.println("This is employee Name "+EmpName);
+        System.out.println("This is employee Address "+EmpAddress);
+        System.out.println("This is employee Phone number "+EmpAddress);
+    }
+   
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your id");
+        int id = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Enter your name");
+        String name = sc.nextLine();
+        System.out.println("Enter your address");
+        String address = sc.nextLine();
+        System.out.println("Enter your phone number");
+        int number = sc.nextInt();
+        
+        JavaApplication12 emp = new JavaApplication12();
+        emp.setData(id, name, address, number);
+        emp.GetData();
+        
+    }
+    
+}
