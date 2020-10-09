@@ -1,0 +1,39 @@
+
+package javaapplication13;
+
+
+public class JavaApplication13 {
+
+  
+    void add()
+    {
+    int a = 10;
+    int b = 20;
+    int c = a + b;
+        System.out.println("Result is: "+c);
+    }
+    void add(int a, int b )
+    {
+    int c = a + b;
+        System.out.println("Result is: "+c);
+    }
+    void add(float a, float b )
+    {
+    float c = a + b;
+        System.out.println("Result is: "+c);
+    }
+    void add(String a, String b )
+    {
+    String c = a + b;
+        System.out.println("Result is: "+c);
+    }
+    public static void main(String[] args) {
+        
+        JavaApplication13 obj = new JavaApplication13();
+        obj.add(23, 43);
+        obj.add(54.78f, 85.26f);
+        obj.add("imad", "jaffer");
+        obj.add();
+    }
+    
+}
