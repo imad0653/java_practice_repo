@@ -1,0 +1,59 @@
+PARENT CLASS
+=============
+
+package polymorph.overriding;
+
+
+public class ClassA {
+    
+    void showmsg()
+    {
+        System.out.println("This is msg from Class A");
+    }
+    
+    void showmsg1()
+    {
+        System.out.println("This is msg from Parent class");
+    }
+}
+
+===============
+CHILD CLASS
+===============
+
+
+package polymorph.overriding;
+
+
+public class ClassB extends ClassA {
+    
+    void Showmsg()
+    {
+ //       super.showmsg(); // we use this super keyword to run our parent class
+        System.out.println("This is msg from Class B");
+    }
+    void showmsg1()
+    {
+        super.showmsg1();
+        System.out.println("This is msg from Child class");
+    }
+}
+// if we skip this super keyword it will run the selfclass
+
+====================
+Base Class
+====================
+
+package polymorph.overriding;
+
+
+public class PolymorphOverriding {
+
+ 
+    public static void main(String[] args) {
+        ClassB obj = new ClassB();
+        obj.showmsg1();
+    }
+    
+}
+
